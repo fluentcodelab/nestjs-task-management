@@ -18,3 +18,8 @@ Setting up auth module, controller and service
 ``` nest g service auth --no-spec```  
 ```nest g controller auth --no-spec```  
 NB: ```--no-spec``` prevents the creation of unit tests
+
+Packages for config schema validation
+
+```yarn add @hapi/joi```  
+```yarn add -D @types/hapi__joi```
